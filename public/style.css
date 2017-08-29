@@ -1,0 +1,64 @@
+/* tag selector */
+p {
+	color: red;
+}
+
+
+h1 {
+	background: yellow;
+}
+
+/* class selector */
+.underlined-text{
+	text-decoration: underline;
+}
+
+.bold-text{
+	font-weight: bold;
+}
+
+/* id selector*/
+
+#top{
+	font-family: "Comic Sans MS";
+}
+
+/* attribute selector*/
+
+[href]{
+	color: green;
+
+}
+
+nav {
+	background: #D5B0AC;
+	text-align: center;
+	margin: auto;
+}
+
+span{
+	color: #402E2A;
+	font-weight: bold;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.horizontalMenu span {
+	display: inline-block;
+}
+
+.verticalMenu{
+	margin-top: 50px;
+	width: 100px;
+}
+
+.verticalMenu span{
+	display:block;
+}
+
+span:hover{
+	background: #9CD08F;
+	color: #FFF;
+}
